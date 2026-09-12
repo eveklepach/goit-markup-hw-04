@@ -1,0 +1,12 @@
+.footer {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.logo.secondary {
+  margin-bottom: 16px;
+}
+.footer-txt {
+  color: #f4f4fd;
+  max-width: 264px;
+  margin: 0;
+}

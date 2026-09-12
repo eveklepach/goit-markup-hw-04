@@ -1,0 +1,33 @@
+.portfolio {
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
+  background-color: #fff;
+}
+.portfolio-img {
+  width: 100%;
+  object-fit: cover;
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.portfolio-desc {
+  margin: 0;
+}
+.portfolio-info {
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
