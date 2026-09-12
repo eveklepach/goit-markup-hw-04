@@ -17,9 +17,9 @@
 }
 .footer .container {
   display: flex;
-  gap: 120px;
 }
 .socials-wrapper {
+  margin-left: 120px;
 }
 .socials-text {
   font-weight: 500;
